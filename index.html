@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15-html-prosta-strona</title>
+</head>
+<body>
+    <!-- nawigacja -->
+    <nav>
+        <ul>
+            <li><a href="#aboutus">About us</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#porfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- sekcja about us -->
+    <section id="aboutus">
+        <header>
+            <h2>
+                About us
+            </h2>
+        </header>
+
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, modi!
+        </p>
+    </section>
+    <!-- sekcja skilla -->
+    <section id="skills">
+        <header>
+            <h2>Skills</h2>
+        </header>
+        <article>
+            <div class="skill">
+                <h3>skill 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, expedita.</p>
+            </div>
+            <div class="skill">
+                <h3>skill 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, id.</p>
+            </div>
+            <div class="skill">
+                <h3>skill 3</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, maiores.</p>
+            </div>
+            <div class="skill">
+                <h3>skill 4</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, maiores.</p>
+            </div>            
+        </article>
+    </section>
+    <!-- sekcja porfolio -->
+    <section id="portfolio">
+        <header>
+            <h2>Portfolio</h2>
+        </header>
+        <div id="portfolio-item"><img src="js.png" alt="js"></div>
+        <div id="portfolio-item"><img src="js.png" alt="js"></div>
+        <div id="portfolio-item"><img src="js.png" alt="js"></div>
+    </section>
+    <!-- sekcja kontakt -->
+    <section id="contactus">
+        <header>
+            <h2>Adam Piwko</h2>
+        </header>
+        <address>
+            ul. Kwiatowa Lublin
+        </address>
+        <form action="">
+            <div>
+                <label for="fullname">Imię</label>
+                <input type="text" required name="fullname" id="fullname" />
+            </div>
+            <div>
+                <label for="subject">Temat</label>
+                <input type="text" required name="subject" id="subject">
+            </div>
+            <div>
+                <label for="message">Wiadomsco</label>
+                <div>
+                    <textarea required  name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                
+            </div>
+            <input type="submit" value="wyślij">            
+        </form>        
+    </section>
+</body>
+</html>
